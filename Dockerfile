@@ -16,4 +16,5 @@ RUN apt-get update && apt-get install -qy \
     nmap \
 
 ENTRYPOINT [ "nmap" ]
-CMD localhost
+
+CMD ["localhost"]
