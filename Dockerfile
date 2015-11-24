@@ -3,7 +3,7 @@
 # 
 # 2015-03-11 BJS : Created and tested Dockerfile
 #
-# to build : docker build -t nmap_app .
+# to build : docker build --no-cache -t nmap_app .
 # to run : docker run -it --rm nmap_app
 #
 
