@@ -3,12 +3,12 @@
 # 
 # 2015-03-11 BJS : Created and tested Dockerfile
 #
-# to build : docker build --no-cache -t nmap_app .
-# to run : docker run -it --rm nmap_app
+# to build : docker build --no-cache -t imagename .
+# to run : docker run -it --rm imagename
 #
 
 FROM debian:sid
-MAINTAINER Bjarne Sorensen <bjarne@ano.dk>
+MAINTAINER Bjarne Sorensen <bjsdocker@ano.dk>
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -17,4 +17,4 @@ RUN apt-get update && apt-get install -qy \
 
 ENTRYPOINT [ "nmap" ]
 
-CMD ["localhost"]
+CMD ["--help"]
