@@ -8,7 +8,7 @@
 # to run : docker run -it --rm imagename
 #
 
-FROM debian:sid
+FROM debian:sid-slim
 MAINTAINER Bjarne Sorensen <bjsdocker@ano.dk>
 
 ENV DEBIAN_FRONTEND noninteractive
