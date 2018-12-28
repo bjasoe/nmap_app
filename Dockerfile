@@ -1,6 +1,7 @@
 #
 # Builds container to capture nmap application
 # 
+# 2018-12-28 BJS : refresh nmap
 # 2015-03-11 BJS : Created and tested Dockerfile
 #
 # to build : docker build --no-cache -t imagename .
